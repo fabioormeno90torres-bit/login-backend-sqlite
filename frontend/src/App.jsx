@@ -6,7 +6,7 @@ function App() {
   const [mensaje, setMensaje] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const API_URL = "http://127.0.0.1:5000/api/login";
+  const API_URL = "https://login-backend-sqlite.onrender.com/api/login";
 
   const handleLogin = async (e) => {
     e.preventDefault();
